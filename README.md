@@ -8,3 +8,8 @@ For IDE, I installed VScode on my Windows 11 system. Then relevent extentions I 
 
 Complete guide for installing & using conda distribution is given here: https://conda.io/projects/conda/en/latest/user-guide/install/index.html.
 
+
+Why do you use VS code instead of Jupyter notebook?
+
+Well, VS code is just an IDE. I use jupyter notebook in VS code as it offers greater functionality.
+
