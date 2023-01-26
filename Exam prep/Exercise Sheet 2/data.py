@@ -3,9 +3,9 @@ import numpy
 
 # Produces a toy dataset for testing
 def toy(M, N, d):
-    U = numpy.random.RandomState(123).uniform(0, 1, [M, d])  # test points
-    X = numpy.random.RandomState(456).uniform(0, 1, [N, d])  # training points
-    Y = numpy.random.RandomState(789).randint(0, 2, [N])  # training labels
+    U = numpy.random.RandomState(123).uniform(0, 1, [M, d])  # test points (M x d) matrix, with 123 as seed for random number generator. Each row is a test point (d-dimensional vector) and there are M test points.
+    X = numpy.random.RandomState(456).uniform(0, 1, [N, d])  # training points (N x d) matrix, with 456 as seed for random number generator. Each row is a training point (d-dimensional vector) and there are N training points.
+    Y = numpy.random.RandomState(789).randint(0, 2, [N])  # training labels (N x 1) vector, with 789 as seed for random number generator. Each entry is a label (0 or 1) and there are N labels.
     return U, X, Y
 
 
