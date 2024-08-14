@@ -11,3 +11,7 @@ Why do you use VS code instead of Jupyter notebook?
 
 Well, VS code is just an IDE. I use jupyter notebook in VS code as it offers greater functionality. It is appearent that all of my code is in .ipynb file. This is a Jupyter extension.
 
+
+
+## 2024
+I am again revising my Python language with the help of an online tutorial. I will be using Github codespaces, and creating new folders.
