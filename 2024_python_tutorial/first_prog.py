@@ -33,3 +33,42 @@ txt = "@"
 print("String & numeric together with *: ", txt*b)
 print("string & string can operate with + (concatination): ", (a+txt)*b)
 print("multiplication or division with float results in always floats: ", b*c)
+print("integer division (c // b): ", c//b)                                       # Floor value is integer/float <= float (the result of normal division)
+
+
+
+# Inputs - taking inputs from usr and printing it
+name = input("name: ")
+age = int(input("age: "))
+price = float(input("price: "))
+print(name, age, price)
+
+# operators
+'''
+Arithmetic operators                 (+,-,*,/,//,%,**)
+Relational / Comparision Operators   (==, !=, >, <, >=, <=)
+Assignment Operators                 (=, -=, *=, /=, %=, //=, **=)
+Logical Operators                    (not, and, or)                - operator precedence (not > and > or)
+Membership Operators                 (in, notin)
+Identity Operators                   (is, isnot)
+Bitwise Operator                     (&, |, ^)    - AND, OR, XOR
+'''
+
+
+
+# Conditional Statements (if - elif- else)
+age = int(input("age: "))
+if age>= 18:
+    print("Eligible voter")
+elif age<18:
+    print("Under age")
+else:
+    print("Plz give the correct value")
+
+# single line if-condition (var = val1 if cond else val2)
+food = input("food: ")
+eat = "Yes" if food == "cake" else "No"
+print(eat)
+print("Yes - 2nd style") if food == "cake" or food == "jalebi" else print("no food at all")
+
+
